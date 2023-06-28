@@ -1,0 +1,19 @@
+.nav-link li{
+  padding: 0 10px;
+  gap: 20px;
+}
+@media(max-width:640px){
+  .nav-link{
+    display: none;
+  }
+  .nav-link-mobile{
+    position: absolute;
+    display: block;
+    list-style: none;
+    top: 80%;
+    left: 10%;
+  }
+  ul li{
+    margin-bottom: 10px;
+  }
+}
