@@ -1,7 +1,13 @@
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+import { useEffect } from 'react';
 
 const AboutMe = () => {
+    useEffect(()=>{
+        AOS.init({duration:2000});
+    },[])
     return (
-        <div id="about-me">
+        <div id="about-me"  data-aos= "fade-up">
             <h1 className="text-center text-3xl text-purple-400">About Me</h1>
             <div className="divider w-64 mt-5 mx-auto"></div>
 
