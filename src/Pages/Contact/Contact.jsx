@@ -17,7 +17,7 @@ const Contact = () => {
     };
     return (
         
-        <div>
+        <div id='contact'>
             <h3 className='text-4xl text-center text-purple-400'>Contact With Me</h3>
           <div className='flex justify-between max-w-screen-md mx-auto'>
           <div>
@@ -28,9 +28,9 @@ const Contact = () => {
            </div>
            <div>
            <p><span className='text-purple-400'>Github:</span><a href="https://github.com/evrahim904">https://github.com/evrahim904</a></p>
-           <p><span className='text-purple-400'>Linkedin:</span> <a href=""></a></p>
-            <p><span className='text-purple-400'>Facebook:</span><a href=""></a></p>
-            <p><span className='text-purple-400'>Whatsapp:</span><a href=""></a></p>
+           <p><span className='text-purple-400'>Linkedin:</span> <a href="https://www.linkedin.com/feed/">https://www.linkedin.com/feed/</a></p>
+            <p><span className='text-purple-400'>Facebook:</span><a href="https://www.facebook.com/Evra.904">https://www.facebook.com/Evra.904</a></p>
+            <p><span className='text-purple-400'>Whatsapp:</span><a href="">+8801904678904</a></p>
             
            </div>
           </div>
